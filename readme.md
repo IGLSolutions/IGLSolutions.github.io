@@ -1,4 +1,5 @@
 Superguide URL - https://www.reddit.com/r/Addons4Kodi/comments/zzfdtb/allinclusive_kodi_guide_for_beginners_movie_and/
+Repo URL - https://iglsolutions.github.io/
 
 1) The Open Wizard - https://a4k-openproject.github.io/repository.openwizard/
 2) Fen - https://tikipeter.github.io
@@ -30,3 +31,6 @@ Interface > Regional = Configure regional settings to your preference
 System > Display = Ensure correct resolution is set
 System > Display > Use Fullscreen Window = On (if decent PC) or Off (if low-powered PC). Makes swapping between apps easier on Windows if on, but uses more resources.
 System > Addons > Unknown Sources = On (Required to install 3rd party addons)
+
+Install plugins in listed order
+
