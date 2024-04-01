@@ -1,4 +1,6 @@
-# Kodi-IGL
+Superguide URL - https://www.reddit.com/r/Addons4Kodi/comments/zzfdtb/allinclusive_kodi_guide_for_beginners_movie_and/
+
+The Open Wizard - https://a4k-openproject.github.io/repository.openwizard/
 PIA - https://www.privateinternetaccess.com/installer/download_installer_android
 The Loop URL- https://loopaddon.uk/loop19/
 Fentastic Guide- https://github.com/ivarbrandt/skin.fentastic
