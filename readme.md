@@ -5,11 +5,11 @@ Superguide URL - https://www.reddit.com/r/Addons4Kodi/comments/zzfdtb/allinclusi
 3) The Loop URL- https://loopaddon.uk/loop19/
 4) The Crew - https://team-crew.github.io/
 5) A4K URL - https://a4k-openproject.github.io/a4kSubtitles/packages/
-6) Fentastic URL - https://ivarbrandt.github.io/repository.ivarbrandt/
-7) Pluto TV Guide - https://www.matthuisman.nz/2020/10/pluto-tv-kodi-add-on.html
-8) TMDB/Arctic Horizon 2 - https://jurialmunkey.github.io/repository.jurialmunkey/
-9) Fentastic Guide- https://github.com/ivarbrandt/skin.fentastic
+6) Pluto TV Guide - https://www.matthuisman.nz/2020/10/pluto-tv-kodi-add-on.html
+7) TMDB/Arctic Horizon 2 - https://jurialmunkey.github.io/repository.jurialmunkey/
+8) Fentastic URL - https://ivarbrandt.github.io/repository.ivarbrandt/
 
+Fentastic Guide- https://github.com/ivarbrandt/skin.fentastic
 PIA - https://www.privateinternetaccess.com/installer/download_installer_android
 Slyguy URL - https://slyguy.uk/
 Trakt Guide - https://www.firesticktricks.com/trakt-kodi.html
