@@ -1,21 +1,24 @@
 Superguide URL - https://www.reddit.com/r/Addons4Kodi/comments/zzfdtb/allinclusive_kodi_guide_for_beginners_movie_and/
 
-The Open Wizard - https://a4k-openproject.github.io/repository.openwizard/
+1) The Open Wizard - https://a4k-openproject.github.io/repository.openwizard/
+2) Fen - https://tikipeter.github.io
+3) The Loop URL- https://loopaddon.uk/loop19/
+4) The Crew - https://team-crew.github.io/
+5) A4K URL - https://a4k-openproject.github.io/a4kSubtitles/packages/
+6) Fentastic URL - https://ivarbrandt.github.io/repository.ivarbrandt/
+7) Pluto TV Guide - https://www.matthuisman.nz/2020/10/pluto-tv-kodi-add-on.html
+8) TMDB/Arctic Horizon 2 - https://jurialmunkey.github.io/repository.jurialmunkey/
+9) Fentastic Guide- https://github.com/ivarbrandt/skin.fentastic
+
 PIA - https://www.privateinternetaccess.com/installer/download_installer_android
-The Loop URL- https://loopaddon.uk/loop19/
-Fentastic Guide- https://github.com/ivarbrandt/skin.fentastic
-Fentastic URL - https://ivarbrandt.github.io/repository.ivarbrandt/
-Pluto TV Guide - https://www.matthuisman.nz/2020/10/pluto-tv-kodi-add-on.html
 Slyguy URL - https://slyguy.uk/
 Trakt Guide - https://www.firesticktricks.com/trakt-kodi.html
 Couch Monkey Recommendations Trakt - https://couchmoney.tv/
 A4K Subtitles Guide - https://a4k-openproject.github.io/a4kSubtitles/packages/
-A4K URL - https://a4k-openproject.github.io/a4kSubtitles/packages/
-The Crew - https://team-crew.github.io/
 Scrubs V2 - https://jewbmx.github.io/
 Seren - https://nixgates.github.io/packages/
 Umbrella - https://umbrellaplug.github.io/
-TMDB/Arctic Horizon 2 - https://jurialmunkey.github.io/repository.jurialmunkey/
+
 
 Configuring Kodi settings
 I'll list some crucial settings within Kodi I would recommend you change before installing any addons, with an explanation as to why if the setting changed is not obvious.
