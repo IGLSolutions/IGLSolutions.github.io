@@ -1,0 +1,401 @@
+URL - https://www.reddit.com/r/Addons4Kodi/comments/zzfdtb/allinclusive_kodi_guide_for_beginners_movie_and/
+
+
+PSA -
+If anyone spots anything incorrect or can think of something I've missed, please let me know in the comments so I can edit the post. This guide was written in late December 2022, and I can imagine it'll stay accurate over the next year at least.
+
+All this information can be found online, but I've decided to write it in one place to help beginners get to grips with Kodi.
+
+A huge shoutout to the developers u/JurialMunkey, u/Tikipeter_, u/nixgates and u/umbrella_dev for making this all possible.
+
+Thank you <3
+
+Introduction
+This guide's goal is to detail all the steps required to building your own piracy streaming centre aimed at those who are brand new to using Kodi. It focuses on streaming Movies and TV shows presented in a beautiful GUI.
+
+A brief warning for those just getting started - Kodi can seem overwhelming to begin with. Although it's not as simple as downloading and installing a program, it's definitely worth doing to both save money and stream the highest quality video possible. Once you get the hang of it, it becomes easy to maintain.
+
+Goals
+Unlimited streaming of any movie/ TV show at the highest possible quality - only limited by internet speed (much better quality than Netflix/ Disney+)
+
+All Movies/ TV Shows presented in a clean Netflix-style GUI (fully customisable to your liking)
+
+Track your Movie/ Episode progress as you watch. Includes resume indicators, autoplaying next episodes, adding films to watchlist/ collection.
+
+Cancel any streaming providers you currently pay for to save a significant amount of money (more on this later).
+
+If you like, watch this short demonstration video I recorded to see my build in action so you know what you’d be working towards:
+
+https://www.dailymotion.com/video/x8p1ni0
+
+General Information before getting started
+Before we start, I'm going to provide some important information you'll need to know before setting up Kodi.
+
+What is Kodi?
+Kodi itself is simply a media player and media library organizer used for locally-owned films/ TV shows. The official use for Kodi is for viewing local media - eg. Someone has a lot of DVDs that they want to digitize and access in one location. Kodi itself is not illegal in any way.
+
+Kodi is available on a wide variety of platforms, but I recommend installing it on a PC (Windows/ Linux or MacOS) as it will be the easiest to navigate through the configuration process. It can also be installed on an Android Device (phone/ tablet, Android TV box, Chromecast, Amazon Fire Stick, Nvidia Shield TV) or Xbox. Personally, I do not recommend installing Kodi on a low-end device such as a Firestick as although Kodi is lightweight by itself, the addons (especially skins/ themes) take up too many resources for it to run smoothly. If you want to go this route, I recommend checking out Syncler or Stremio - both lightweight options for "plug and play" type streaming.
+
+Kodi allows 3rd party addons to be installed, and this is where piracy comes into play. There are thousands of addons for Kodi, each bringing different functionality. Some are used for streaming high-quality pirated content to Kodi's in-built player, some are used for finding subtitles, some are Kodi themes/ skins. We will be using addons for all of the above.
+
+A Kodi "build" is a collection of addons and skins, usually designed for a specific purpose. In this guide, we aim for high-quality Movie/ TV streaming with a nice GUI. I highly recommend you look into other addons/ skins that may better suit your needs (genre specific addons, live TV addons, music addons). This guide should still be helpful with your setup but please research other alternatives. Don't only use the addons I have listed purely because I have listed them. For example, Erza is a brilliant Movie/ TV addon I have used in the past but don't mention here.
+
+It is highly recommended you do not install a pre-build for perceived simplicity. Here's why:
+
+They may contain lots of addons/ bloatware you don't need (or are outdated) which can slow Kodi down significantly.
+
+If something breaks, you won't know how to troubleshoot it.
+
+You'll have to learn how to use 90% of Kodi to get it working in the first place.
+
+It's a security risk as some pre-builds can have malicious software embedded.
+
+Builds are not configured to suit to you. For instance, I talk about enabling auto-playing later in the guide. This may fit your needs, it may not. This is one of many cases where building yourself allows for total personalisation.
+
+Always build one yourself.
+
+How do video add-ons work?
+First, it's important to know that a film's metadata and the video itself are different. Within a video addon, you may search for and find a movie and think "Cool! Kodi has xxx film!". But this isn't always the case - it's up to the addon to find a link (a source) for that film through its video providers in a process called scraping. The metadata (name, poster, info) for the films are pulled through official film databases such as IDMB's API, and therefore any film on IMDB (essentially any film in existence) will be listed when browsing films through piracy video addons.
+
+It's recommended to use 2 or 3 different video addons in case one addon doesn't find a film (a rare occurrence with Real Debrid - more on this below)
+
+It’s worth noting that these piracy add ons will eventually be taken down. Some addons may last multiple years, some maybe only a few months. Fortunately, it’s simple to add another addon if one gets taken down. Kodi is not affected - you’d just have to install a new addon.
+
+What else do I need?
+Real Debrid
+You’ll need a service called "Real Debrid''. Real Debrid allows you to stream from a variety of online file hosters that each require their own subscription; Real Debrid packages them into one cheap membership.
+
+Someone who is hosting high-quality pirated content will usually post it to one of these premium file hosters which therefore can only be streamed into Kodi via a Real Debrid subscription. Premium piracy video addons (Fen/ Seren/ Umbrella) require a file hosting service to be linked in order to scrape sources. There are a few choices (such as Premiumize or All Debrd), but these are more expensive and offer additional features not needed for our this use (streaming). Real Debrid is the most widely used file-hoster package subscription.
+
+Although Real Debrid is technically optional (there are video addons designed to be used without it), it’s pretty much necessary for a variety of reasons. You might be wondering - why should I need to pay for it if it’s pirated? Isn’t the whole point of piracy to get movies for free? Here’s why:
+
+High quality pirated content is usually hosted on premium file hosters that you have to pay for to get access to. Without it, you’ll be streaming from free links along with the majority of people leading to regular buffering - even with a good internet speed.
+
+Free streams are almost always worse in quality (480p/ 720p).
+
+There are a lot less free links to choose from so you’re significantly less likely to find a stream for the film you are wanting to play. With Real Debrid, there are an abundant amount of links for almost anything; it’s incredibly rare that a film or show will not have any sources.
+
+Just as free link streams are worse in quality, paid links are the best of the best. You will get access to disk-quality streams (if your internet can handle it). Blu-Ray, 4K, HDR, 10-bit color, high-bitrate streams are standard. If your internet is not fast enough, of course you can choose a less demanding source. I recommend at least 35-40mbps to stream high-quality 4K content (for comparison, Netflix recommends 15mbps for their 4K streams as they are much more compressed). Resolution is only an indicator of quality - not something that determines it. Bitrate is more important (the amount of pixels that are being displayed each second). Real-Debrid has access to much higher bitrate streams (therefore much better quality) when compared to Netflix/ Disney etc.
+
+The majority of blockbuster movies are not hosted on any official services. If you want to play a movie outside of their subscription, you’ll have to pay for it separately (and higher quality resolutions cost more money).
+
+Providers that use Real Debrid have access to almost anything. I am yet to find a film or show I could not scrape a source for.
+
+Price Comparison:
+
+Real Debrid is much cheaper than purchasing Netflix/ Disney+/ Prime Video subscriptions. Here is a breakdown of how much each costs (as of Dec 2022, in GBP):
+
+Netflix (Subscription Tiers) -
+
+- Basic with Adverts (720p Resolution) - £4.99 per month
+
+- Basic without Adverts (720p Resolution) - £6.99 per month
+
+- Standard (1080p Resolution) - £10.99 per month
+
+- Premium (4K/ HDR) - £15.99 per month
+
+Amazon Prime Video -
+
+- (1080p Resolution with some 4K/HDR streams) - £8.99 per month/ £95 per year
+
+Disney Plus -
+
+- (1080p Resolution with some 4K/ HDR streams) - £7.99 per month/ £79.90 per year
+
+Savings:
+
+Real Debrid Costs £28.18 per year when you buy their longest 6 month subscription, twice.
+
+- If you only purchase the cheapest Netflix plan, you’ll spend £59.88 per year. Real Debrid would save you £31.70 - over half price.
+
+- If you purchase the Premium Netflix plan with Prime (monthly) and Disney+ (monthly), you’ll spend £395.64 per year. Real Debrid would save you £367.46.
+
+- If you purchase the Premium Netflix plan with Prime (Yearly) and Disney+ (yearly), you’ll spend £366.78 per year. Real Debrid would save you £338.60.
+
+In the absolute cheapest case (you’re only buying the cheapest Netflix plan), you’re spending less than half price with Real Debrid. In the majority of cases where users have multiple subscriptions, the savings are much more substantial.
+
+Trakt
+To track the content you have watched, get personalized recommendations, resume watching indicators and the ability to add films to a watchlist or collection, we will use a service called Trakt. This is a totally independent and legal service used to organize your watched content in a single place. All you need to do is register a free account with them, which can then be linked to Kodi.
+
+VPNs
+A VPN is not required if you are streaming through Real Debrid. Your ISP can still see your logs, but they will only show a connection between you and Real Debrid's server, which is perfectly legal. The illicit content you are streaming is encrypted through Real Debrid - completely hidden from your ISP.
+
+However, if you are going for a free-links build, a VPN is highly recommended as your IP address is connected directly to the server which is visible to your ISP. This could lead to heavy fines (depending on where you live), or your broadband cut off entirely. Do some research into your local laws.
+
+Steps for setting up Kodi
+Sign up for Real Debrid and Trakt.
+As mentioned, Real Debrid is optional but I highly recommend it for the quality of streams. Purchase from:
+
+https://real-debrid.com/
+
+The payment is not recurring, so you will have to manually subscribe every 6 months or however long you choose. If you prefer, you can buy 2 weeks worth for approx £2.50 to test it first.
+
+Trakt can be registered for free at trakt.tv. Simply make an account.
+
+Install Kodi
+Being a media player, you can simply download the app from their website kodi.tv and install it. I would recommend their latest stable release V19.5 (Matrix). Third party addons have to be updated by their creators to work with the latest Kodi versions, so it is not recommended to keep Kodi up-to-date everytime a new version comes out as it can break installed addons that haven't been updated. I wouldn't recommend the pre-release v20 (Nexus) just yet.
+
+Configuring Kodi settings
+I'll list some crucial settings within Kodi I would recommend you change before installing any addons, with an explanation as to why if the setting changed is not obvious.
+
+Open Kodi and click settings. When you begin changing things, ensure "Expert" is selected (bottom-left) to view all settings.
+
+Player > Language > Preferred audio language = English (Important - Prevent streams from defaulting to foreign audio)
+
+Player > Language > Preferred subtitle language = English (Important - Prevents streams from defaulting to foreign subtitles)
+
+Media > General > Show parent items = Off (Prevents a back button being shown that leads to your file manager when navigating a series' season later in the guide)
+
+Interface > Regional = Configure regional settings to your preference
+
+System > Display = Ensure correct resolution is set
+
+System > Display > Use Fullscreen Window = On (if decent PC) or Off (if low-powered PC). Makes swapping between apps easier on Windows if on, but uses more resources.
+
+System > Addons > Unknown Sources = On (Required to install 3rd party addons)
+
+Steps for installing an addon
+Installing third party addons is a fairly simple process. Addons are hosted inside repositories, which Kodi "links" to through a URL (adds the online file as a source). Once added, you can then install that repositories' ZIP file, and finally install the addons inside from the ZIP.
+
+I'll run through a step-by-step on installing an addon called "The Open Wizard" - a maintenance addon we will install first.
+
+Occasionally, when installing addons, the installation can fail with a message “failed to install a dependency”. 9/10 times, this can be solved by clearing your Kodi’s cache. Unfortunately, this is not something Kodi can natively do. The Open Wizard has this function and can usually fix this issue. This is why it’s best to install this addon before all others.
+
+Installing other addons is exactly the same process. At some point in this, you will be prompted to enable Unknown Sources in settings if you haven't already - ensure you do!
+
+Steps
+Upon opening Kodi, go to settings (the gear icon), then file manager. You'll be shown a list of your PC drives. Click "Add Source". This is where we point Kodi to a Repository URL.
+
+Where it says "None", paste in your repository URL. I'll give you the links in this guide, but if you need to find one yourself, simply google "Kodi -addon-of-choice- repository". The repo URL for the Open Wizard: https://a4k-openproject.github.io/repository.openwizard/
+
+The name of the repository may have autofilled, but if not, give it a name and click "Ok". If a message Pops-up with "Could not connect - Unable to retrieve repository information", then the URL will have been mistyped. It has to be exact - including slashes at the end of the URL (if needed) and http or https (https in this case). It is also case-sensitive. Occasionally, an old Repo may have been taken down and you might have to find a new repo containing the addon you're after.
+
+The next step is to install that repository zip to your PC. Once the Repo is added to your sources, back out of that menu and go to "Add-ons". Click "Install from ZIP file", select the repository you've just added, select the repo's ZIP file, then wait for Kodi to install it.
+
+Finally, once the repo zip is installed, on the same page, click "Install from Repository" (Instead of "Install from ZIP file"). Click on the repository you've just installed. The Open wizard is a program addon, so click "Program Addons' ', then Open Wizard. Click Install.
+
+When installing Open Wizard for the first time, you will be greeted with a list of tick boxes asking what data it should keep. As this is used for Backing-up and Restoring builds, just leave the boxes as they are and click “Continue”.
+
+Here is a link to exactly the same steps I just listed, but with screenshots so you can visualize what to click on. (The guide below installs Fen, but the steps are exactly the same).
+
+https://howtomediacenter.com/en/fen-kodi-addon/
+
+Clearing Kodi Cache with Open Wizard
+Now that the Open Wizard is installed, I’ll quickly show you how to clear Kodi's cache in case an addon fails to install down the line. Open The Open Wizard by going to:
+
+Settings > Add-ons > My Add-ons > Program Add-ons > Open Wizard > Open
+
+Next, head to the Maintenance tab and click "Total Clean Up" (Clears packages, thumbnails and cache).
+
+Addons to be installed (Repo URLs provided here)
+The video addons I personally use the most are Fen and Seren, followed by Umbrella as a backup (these are all premium addons with a Real Debrid subscription required). If you are wanting to watch very old or obscure content, it might be worth also installing The Crew since it has the widest variety of content. I just want to point out that Fen/ Seren/ Umbrella have links to almost anything and it will be a very rare scenario that you'll have to use The Crew, but it might be worth installing just in case.
+
+I want to reiterate not to go with these addons just because I have listed them, but instead because they are informed choices of your own research. There are plenty of other great addons that may suit your needs better; these are just the addons I personally use. Objectively though, these are good choices for Movie/ TV streaming but it's important to decide that for yourself.
+
+If you are wanting to go with “free links only” build (not recommended), only install The Crew and Scrubs v2.
+
+Repeating the steps I listed above to install an addon, install these addons:
+
+Video addons (paid with Real Debrid)-
+
+- Fen: https://tikipeter.github.io
+
+- Seren: https://nixgates.github.io/packages
+
+- Umbrella: https://umbrellaplug.github.io/
+
+Video addons (free) -
+
+- The Crew (Real Debrid & free links): https://team-crew.github.io/
+
+- Scrubs v2 (free only): https://jewbmx.github.io/
+
+Subtitles -
+
+- a4k Subtitles: https://a4k-openproject.github.io/a4kSubtitles/packages
+
+Program addons -
+
+- Trakt: Does not require a third party repository. Just click "Install from repository" > Kodi Add-on Repository > Program Add-ons > Trakt).
+
+Configuring Addon Settings (Repeat For Each Video Addon)
+With all the addons installed, each one requires individual configuration. Of course this is up to your liking, but for each addon I will list some necessary changes. The video addons (Fen/ Seren/ Umbrella/ The Crew) have the same settings, but will be presented slightly differently on each. The settings shouldn't be too difficult to navigate though.
+
+Note - We do not need to configure any metadata API keys on each addon as that will be done through TMDB later in the guide - so don't worry about leaving those blank.
+
+To access an addons configuration settings, go to
+
+Settings > Add-ons > My Add-ons > Category (eg. "Video Add-ons”) > Addon (eg. Fen) > Configure (like you did with The Open Wizard config).
+
+Linking Real Debrid to each video addon.
+In the addon's settings, there will be a category called "Providers" (or something similar). Here, you can authorize Real Debrid. It will give you a code which you need to enter on Real Debrid's website when you’re signed in (link for this is below). That's it! Your addon can now access the best quality streams :)
+
+https://real-debrid.com/devices
+
+Note - If you have installed The Crew, you need to authorize Real Debrid through an addon called ResolveURL instead of directly through The Crew's settings. ResolveURL will have automatically downloaded with The Crew (as it's a dependency for that addon), and so all you need to do is go to Settings > System > Add-ons > Manage Dependencies > ResolveURL (ensure Expert mode is selected on the bottom left to see "Manage dependencies"). Here, under "Universal Resolvers 2", you'll find the option to authorize Real Debrid.
+
+Linking Trakt.
+This uses the same steps, but the authorize button is usually found under Addon Settings > Accounts. It will give you a code to enter at:
+
+https://trakt.tv/activate
+
+It is not recommended to enable Trakt Scrobbling on every addon as different timestamps with multiple addons can get messy - simply enable this option on the offical global Trakt addon as detailed further in the guide.
+
+Sorting/ Filtering sources.
+Under scraping options, you can filter out/ sort the sources to suit your needs. For example, if you are viewing on a 1080p screen, filter out 4K streams as there's not much point in streaming the extra data. Dolby Vision should always be filtered out, even if your monitor can support it. As a format, it is not compatible with a windows machine due to licencing issues - even through Kodi. It's also possible to prioritize HDR/ Blu-Ray/ 4K streams if you prefer.
+
+You can choose to sort the sources scraped via file size or internet speed to prevent showing links your internet is not fast enough to play (not every addon supports this though). Seren excludes sources by filesize by default, so turn this off to see the largest/ highest quality sources.
+
+I would also recommend excluding 3D sources. Optionally, you can exclude CAM/SCREENER/TELE sources as these are extremely low quality links. These are sources that have filmed a movie with a camera, usually in a cinema so you can watch movies before they've been released, however I wouldn't get my hopes up too high on the quality. Occasionally, a full-quality film will be leaked before the release date from someone working inside the production team, but this is not an often occurrence.
+
+These settings above should be configured on EACH of the video streaming addons you are planning on using.
+
+Configuring Addon Settings (Addon-Specific)
+Trakt Global Addon
+Within Trakt's own official Addon (the one downloaded from Kodi's official repository - it’s found under the "Program add-ons" category), ensure "Trakt Scrobbling" is enabled for both movies and TV shows (found in the "Scrobbling" tab). This is your placeholder for when you pause/ quit a movie halfway and want to resume from the same point later.
+
+Ensure you enable "Sync Movie/ TV Show Playback Progress to Kodi" under the Synchronize tab.
+
+Optionally, you can enable "Show notification on scrobble" to get a little message when you pause/ fast-forward to ensure Trakt has successfully marked your position in the show.
+
+Another optional setting you can change is under "Rating", you can disable "Rate Movie/ TV show after watching" to prevent a pop-up appearing asking you to rate the show every time you finish it. I personally found it annoying.
+
+AutoScraping/ AutoPlaying with Fen and Seren
+Fen and Seren both offer a “Next Up” Dialogue; a little box that appears in the corner when you’re 30 seconds before finishing an episode, asking if you want to prepare the next episode. I recommend enabling this for both - if you’re binge watching a series, it’s useful not to have to manually select the next episode each time.
+
+There’s a difference between auto-playing and auto-scraping: auto-playing will automatically select what it believes to be the best source out of the scraped sources and play it without you choosing, and auto-scraping will scrape the sources in the background ready for you to choose from when you finish the episode. I recommend turning off auto-playing and enabling auto-scraping as sometimes the selected link might be broken.
+
+To configure auto-scraping on Fen
+
+Fen addon settings > Playback > Movies > Autoplay = Off
+
+Fen addon settings > Playback > Episodes > Autoplay = Off
+
+Fen addon settings > Playback > Episodes > Auto scrape next episode = On
+
+To configure auto-scraping on Seren:
+
+Seren addon settings > Playback > Movie Play Style = Source Select
+
+Seren addon settings > Playback > Episode Play Style = Source Select
+
+Swap these values around if you want to autoplay
+
+Unfortunately, Umbrella does not support this feature, but it does support autoplay.
+
+Seren Provider Packages
+With Seren, you have to manually add the list of providers it should scrape sources from. You simply go to:
+
+Seren Settings > Providers > Manage Provider Packages > Install Package > Web Location
+
+...and type in the URL http://bit(DOT)ly/a4kScrapers
+
+A4k subtitles
+The a4k subtitles addon does not require any configuration, however in Kodi settings it's worth setting a4k as your default subtitle source:
+
+Settings > Player > Subtitles > Default TV Show Service = a4k Subtitles
+
+Settings > Player > Subtitles > Default Movie Service = a4k Subtitles
+
+Configure TMDB
+Almost everything on the technical side of things is complete, but you will still want Kodi to look good and be easy to navigate. The best looking skin (in my opinion) is Arctic Horizon 2 - shown in my demo video. However, before configuring AH2, it’s necessary to configure one final addon (a dependancy for AH2) before diving in - TMDB/ The Movie Database Helper.
+
+You can install the skin from the repo below, but it is recommended to install these addons in a particular order (all from the same repo):
+
+1 - TMDB (The movie database helper) - Video addons
+
+2 - Skin Variables - Program addons
+
+3 - Arctic Horizon 2 - Look and feel > Skin
+
+The repo URL for these addons is - https://jurialmunkey.github.io/repository.jurialmunkey/
+
+Upon installing AH2, it will ask if you want to switch to that skin. Click No - it’s important to configure TMDB first. If you’ve clicked yes, simply navigate back to settings (it’s now on the top-right of the screen in a drop-down menu now), click “skin” and change it back to the default skin.
+
+Go to the newly installed TMDB addon’s configuration settings as shown before. These settings are necessary to be changed:
+
+General > Language and Country = Your country of preference
+
+General > Get additional details and artwork from TMDB = On
+
+Trakt > Authorise Trakt account (as you did before with Fen/ Seren/ Umbrella)
+
+Trakt > Get watched indicators and episode counts (slower) = On
+
+Trakt > Get resume points (experimental) (slower) = On
+
+Players > Update Players from URL = http://bit(DOT)ly/tmdbplayers (it should ask you to download the players and clear excisting ones- click Yes).
+
+An issue with using multiple video addons is that if one addon doesn’t work or fails to find links, you have to back out and search again with a new addon. What we are doing here is configuring a list of players you can choose to scrape a movies’ link with (in case one fails to work) so you don’t have to go through loads of menus. If scraping fails, you can just choose another addon to scrape with on the same page.
+
+This only works when you’ve chosen a movie through the TMDB addon, which is why we will be configuring the homepage to list movies and TV shows through TMDB to give you this option.
+
+Still within TMDBs addon settings, navigate to
+
+Players > Configure Players
+
+Each addon will have a few different players you could choose from - the differences being whether it should autoplay or bring you to a source select screen. Personally, I like to see all the sources so I can make a choice based on the video format. It also means if that link is broken (a rare occurrence), I can choose the next link down.
+
+As my personal preference is to be able to select my source (and this is what I would recommend you also do unless you're certain in your autoplay configuration), only keep players that contain “source select” in the title enabled. Seren has an option for “Smart play with source select”, but only enable the “source select” player. You do this by clicking on the player in question, ensuring “Disabled” is set to true, back out, save, and repeat with the other players. Now, when you go to play a movie, only the players that are left enabled will show as options. You can see this in my demo video - I only have 3 players listed when I play the movie Dune. Also disable the default “UPnP” player, and “Youtube”, if you have an option for it.
+
+For each player you have kept enabled, ensure that “is_resolvable” is set to FALSE, otherwise it will ask you this every time you try to play a movie through that addon and you have to click “no” each time. "is_resolvable" is a check to see whether that player is sourcing from a single provider
+
+Finally, to order the list of players when you select a movie, you can change the priority number (a lower number = higher in the list). So when you go to play a movie, you could have Fen listed first (10), then Seren (20), then Umbrella (50), then The Crew (100) - if you’re using it.
+
+The last setting in TMDB I would recommend you change are the API keys. These pull in external metadata for extra ratings for each movie - something that looks very nice when browsing the information tab on a film. It’s not necessary though.
+
+It asks for a few keys - OMDB, MDbList and a Fanart api key. You can easily obtain those by going to these three links below and either registering an account or giving your email for them to send it to you. Simply paste the keys in the corresponding settings - they just look like jumbled letters and numbers.
+
+OMDB - https://www.omdbapi.com/apikey.aspx
+
+MDbList - https://mdblist.com/api/ (Click preferences, you may have to make an account to generate a key)
+
+FanArt Api - https://fanart.tv/get-an-api-key/ (Also may need an account)
+
+Some of those may ask you for a reason for your API key. Simply write “For home media streaming center”.
+
+Configure your Kodi GUI
+Finally, we can make Kodi look beautiful! Switch to the Arctic Horizon 2 skin by going to Settings > Interface > Skin = Arctic Horizon 2.
+
+Note - Arctic Horizon 2 is best navigated solely using the keyboard/ remote/ controller, not the mouse.
+
+To finalize and personalize your Kodi build, I'll guide you on how you can add lists of movies (Personalized Recommendations/ Top 10 best films/ Resume watching) to your home page.
+
+Navigate to the top-far right gear icon to access a drop-down menu - this is where your settings now are.
+
+Settings > Skin > Configure Skin > Menus > Customize Home menu
+
+On the left are 4 tabs - each of which is a homepage (Movies, TV Shows, Music, Videos are the 4 by default). On the right side of the screen are settings you can configure for each page. Start by deleting each of the 4 pages by clicking the X on each as it's best to start from scratch.
+
+Create 2 new pages using the + button. These will be pages for your Movies and TV Shows. You can label these correspondingly with the "Label" setting on the right side. You also might want to change the Icon to something that represents each of them better. There are a LOT of icons you can choose from, so for your convenience, I have my movie tab to "film.png", and my TV show tab to "director.png". I found that it looked best. To test, back out of your settings to the home page and you'll see the home screen is now 2 blank Movie and TV show pages that you can toggle between up top.
+
+Go back to "Customize Home Menu". Now, you can begin adding widgets. Widgets are the posters of films that are laid out for you to scroll through. Again - this is only the film’s metadata - not the film itself. The video file is sourced when you play with one of your configured players.
+
+You can choose which lists of widgets you would like displayed on each page - including personalized lists such as “recommended for you” or “Based off recently watched” thanks to authorizing TMDB with Trakt.
+
+To create some widgets, under Settings > Skin > Configure Skin > Home Customization Settings, highlight the page you wish to add some lists to on the left (Movies or TV). On the right side of the screen, navigate to “widgets”. Here, you can add as many widget lists as you would like. Each list requires a directory pointing to a list of movies/ TV shows which the skin uses to populate your homescreen with.
+
+To point the list of widgets to a directory, click “Choose Widget”, then follow this exact directory:
+
+Add-ons > Video add-ons > TheMovieDB Helper
+
+Here, you can go through and select the various lists TMDB provides. When adding a widget list through the directory above, ensure to always go through “TheMovieDB Helper” and not Fen/ Seren as you need the widget lists to be displayed through TMDB for your configured players to work properly.
+
+Personalized lists are found through Trakt, the directory of which is:
+
+Add-ons > Video add-ons > TheMovieDB Helper > Trakt
+
+This is where you’ll find lists such as “Movies Recommended For You”, “In-progress Episodes'', and “Based on recently watched Movies''. If you scroll to the bottom of Trakt’s categories, you’ll find two options for “Trending Lists' ' and “Popular Lists' ' . These are public lists that are updated independently, but with much more variety in their content. For example, that’s where I found the Star Wars collection and Top 10 Pirated movies of the week.
+
+Note - Occasionally when you choose a list for your widget, it may ask you what order to sort them in. Simply choose “Ranked: Lowest First”, then “Use as Widget”. “Ranked: Lowest First” appears in the label, but won't display on your homepage.
+
+Note 2 - The fullscreen widget (the first movie you see when you boot kodi up) is not listed in the widgets tab as you can only have one of them per page. It’s listed under the widgets button. Similarly, there is a “submenu” widget, which is a widget list that is always the last on the page. I use this one for Network providers - Netflix, Disney, Amazon etc. It isn’t actually linked to those official services, but rather lists movies/ TV shows that those services have released so you can browse their content. If you want this, the directory for the widget is:
+
+Add-ons > Video Add-ons > TheMovieDB Helper > Movies > Providers
+
+Add-ons > Video Add-ons > TheMovieDB Helper > TV Shows > Providers
+
+Configuring the widgets is now entirely up to you. Each list has loads of styles to choose from such as landscapes, feature posters, lovefilm widgets etc. You can show/hide textual information on each highlighted film, or set the list to autoscroll after a few seconds.
+
+The skin has plenty more customization settings such as the Season/ Episode layouts when you click on a show. This is found by clicking the gear icon (top right) when you're browsing a show, then "View". There's tons of appearance settings, color settings and textual settings that can be configured! Find what suits you!
