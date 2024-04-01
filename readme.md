@@ -19,6 +19,7 @@ A4K Subtitles Guide - https://a4k-openproject.github.io/a4kSubtitles/packages/
 Scrubs V2 - https://jewbmx.github.io/
 Seren - https://nixgates.github.io/packages/
 Umbrella - https://umbrellaplug.github.io/
+CocoScraper - https://cocojoe2411.github.io
 
 
 Configuring Kodi settings
