@@ -20,6 +20,7 @@ Scrubs V2 - https://jewbmx.github.io/
 Seren - https://nixgates.github.io/packages/
 Umbrella - https://umbrellaplug.github.io/
 CocoScraper - https://cocojoe2411.github.io
+VPN - https://github.com/Zomboided/service.vpn.manager/wiki/01.-Installation
 
 
 Configuring Kodi settings
